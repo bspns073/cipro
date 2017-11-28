@@ -6,7 +6,20 @@
   <artifactId>ciproject</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
-
+  
+ <distributionManagement>
+    <repository>
+         <id>releases</id>
+         <name>release repository</name>
+         <url>http://ec2-34-213-148-6.us-west-2.compute.amazonaws.com:8080/nexus-2.14.5-02/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+         <id>snapshots</id>
+         <name>snapshot Repository</name>
+         <url>http://ec2-34-213-148-6.us-west-2.compute.amazonaws.com:8080/nexus-2.14.5-02/content/repositories/snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <name>ciproject</name>
   <url>http://maven.apache.org</url>
 
