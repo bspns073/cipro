@@ -4,7 +4,7 @@
 
   <groupId>org.harsha</groupId>
   <artifactId>ciproject</artifactId>
-  <version>3.0-SNAPSHOT</version>
+  <version>3.0</version>
   <packaging>jar</packaging>
   
   
