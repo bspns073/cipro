@@ -38,6 +38,6 @@
     </dependency>
   </dependencies>
   <build>
-  <fileName>ciproject</fileName>
+  <finalName>ciproject</finalName>
   </build>
     </project>
