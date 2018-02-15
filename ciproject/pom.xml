@@ -11,7 +11,7 @@
  <distributionManagement>
   <snapshotRepository>
     <id>snapshots</id>
-        <name>SNAPSHOT</name>
+        <name>snapshots</name>
     <url>http://ec2-52-23-211-163.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
     <repository>
@@ -37,4 +37,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-</project>
+  <build>
+  <fileName>ciproject</fileName>
+  </build>
+    </project>
